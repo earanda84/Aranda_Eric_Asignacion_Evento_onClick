@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Evento onClick</title>
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <!-- NAVBAR -->
+            <nav class="nav">
+                <h1 class="title">Dojonary</h1>
+                <input type="text" placeholder="Search" name="searching">
+                <button class="btn">Login</button>
+            </nav>
+        </header>
+        <!-- MAIN CONTENT -->
+        <main class="main">
+            <!-- LEFT COLUMN -->
+            <section class="left">
+                <!-- CARDS -->
+                <div class="card">
+                    <div class="card-body-left">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="like" onclick="clickButtons(this)">13 likes</button>
+                    </div>
+                    <div class="card-body-right">
+                        <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjitsu</span></p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-body-left">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="like" onclick="clickButtons(this)">37 likes</button>
+                    </div>
+                    <div class="card-body-right">
+                        <p>A <span>programer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                    </div>
+                </div>
+            </section>
+            <!-- RIGHT COLUMN -->
+            <section class="right">
+                <!-- CARD -->
+                <div class="card card-right">
+                    <h2>Dojonary is defined by <span>YOU</span></h2>
+                    <button class="add" onclick="clickButtons(this)">Add Definition</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>//</p>
+        </footer>
+    </div>
+    <script src="./javascript/index.js"></script>
+</body>
+
+</html>
